@@ -1,8 +1,10 @@
 #conteneur{
     display: flex;
-    justify-content:space-between;
+    flex-direction: column;
+    justify-content:center;
     border: 1px solid black;
     width:600px;
+    height: 300px;
     
     
 } 
