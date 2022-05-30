@@ -1,29 +1,27 @@
 #conteneur{
     display: flex;
     align-items:center;
-    flex-direction: column;
+    flex-direction:row;
     justify-content:center;
     border: 1px solid black;
     width:600px;
     height: 300px;
     
+} 
+
     
-} 
-.element1{
-    background-color: blue;
-    width:70px;
-    padding: 20px;
-} 
-.element2{
+    
+  
+
+
+.element:nth-child(2){ 
     background-color: green;
     width:70px;
     padding: 20px;
-} 
-.element3{
-    background-color: red;
-    width:70px;
-    padding:20px
+    align-self:flex-end; /*seul ce bloc sera aligné à la fin*/
 }
+
+
     
 
 
