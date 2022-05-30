@@ -1,6 +1,6 @@
 #conteneur{
     display: flex;
-    flex-wrap:wrap-reverse ;
+    justify-content:flex-start;
     border: 1px solid black;
     width:600px;
     
